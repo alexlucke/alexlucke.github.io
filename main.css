@@ -1,0 +1,122 @@
+
+a:link    {color:#DB1370; background-color:transparent; text-decoration:none}
+a:visited {color:#DB1370; background-color:transparent; text-decoration:none} 
+a:hover   {color:#ffffff; background-color:transparent; text-decoration:underline} 
+a:active  {color:#ffffff; background-color:transparent; text-decoration:underline}
+
+#containter{
+  width: 1000px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+    opacity: 1;
+}
+
+img:hover {
+    opacity: .4;
+}
+#title{
+    
+    font-family: Georgia;
+    width: 1000px;
+    font-size: 200%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    background-image: url("images/pink.jpg");
+    background-repeat: repeat-x;
+    color: white;
+    
+    
+}
+
+#menu{
+    width: 1000px;
+    font-family: sans-serif;
+    font-size: 100%;
+    color: #DB1370;
+    letter-spacing: 3.5px;
+    height: 25px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+h1{
+    font-size: 100%;
+}
+
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+ul li {
+    display: inline;
+    list-style-type: none;
+}   
+
+#content{
+        width: 650px;
+	background-color: white;
+        border: 2px dotted black;
+        padding: 10px;
+        font-size: large;
+        margin-left: auto;
+        margin-right: auto;
+        }
+        
+#resume{
+     width: 400px;
+	background-color: white;
+        border: 2px dotted black;
+        padding: 10px;
+        font-size: large;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    
+}
+
+ol {
+    
+    width: 400px;
+    color: black;
+    font-size: 100%;
+    
+    
+}
+
+#subtitle{
+ 
+    font-family: Georgia;
+    width: 1000px;
+    font-size: 200%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    color: #DB1370;
+    text-align: center;
+ 
+    
+}
+
+#footer{
+        width: 1000px;       
+        background-color: white;
+        font-family: Georgia;
+        font-size: small;
+        color: gray;
+        clear: both;
+	bottom: -500px;
+        position: absolute;
+        height:60px;
+        text-align: center;
+    
+}
