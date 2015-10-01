@@ -1,0 +1,39 @@
+{% extends "_base.html" %}
+
+{% block content %}
+<div class="container">
+  <div class="jumbotron">
+    <h1>{{ headline }}</h1>
+    <p>{{ deck }}</p>
+{{ image1|safe }}
+<p> {{ spike }} </p>
+	
+<h2 class="sub-header">Big Ten Cost and Graduation Rate</h2>
+          <div class="table-responsive">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>University</th>
+                  <th>In-state cost</th>
+                  <th>Out-of-state cost</th>
+                  <th>Graduation rate</th>
+                </tr>
+              </thead>
+	{% for row in data %}
+              <tbody>
+		<tr>
+		   <td>{{ row.School }}</td>
+		   <td>${{ row.Instate }}</td>
+		   <td>${{ row.Outstate }}</td>
+		   <td>{{ row.Graduation }}%</td>
+		</tr>
+	      </tbody>
+	{% endfor %}
+	</table>
+	</div>
+<p> {{momoney}} </p>
+{{ image|safe }}
+  </div>
+</div>
+{% endblock content %}
+
