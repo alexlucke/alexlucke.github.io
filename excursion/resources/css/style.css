@@ -25,3 +25,7 @@ p{
   font-size: 21px;
   color: grey;
 }
+
+video {
+    object-fit: contain;
+}
