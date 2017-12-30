@@ -29,3 +29,8 @@ p{
 video {
     object-fit: contain;
 }
+
+.footer{
+  text-align: right;
+  color: grey;
+}
